@@ -1,0 +1,35 @@
+﻿生成启动时间为 2020/5/25 19:14:31。
+     1>项目“D:\test\CvtRaw\CvtRaw\CvtRaw\CvtRaw.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing cvtraw.h...
+         Uic'ing cvtraw.ui...
+         Rcc'ing cvtraw.qrc...
+     1>RCC : warning : No resources in 'D:\test\CvtRaw\CvtRaw\CvtRaw\cvtraw.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtCore /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtGui /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt BayerToRGB.cpp Convert.cpp cvtraw.cpp GeneratedFiles\Release\moc_cvtraw.cpp ImageWidget.cpp main.cpp
+         BayerToRGB.cpp
+         Convert.cpp
+         cvtraw.cpp
+         moc_cvtraw.cpp
+         ImageWidget.cpp
+         main.cpp
+         正在生成代码...
+     1>d:\test\cvtraw\cvtraw\cvtraw\convert.cpp(55): warning C4715: “CvtCalss::ChangeC32ToMono8”: 不是所有的控件路径都返回值
+     1>d:\test\cvtraw\cvtraw\cvtraw\convert.cpp(424): warning C4715: “CvtCalss::SaveBmp”: 不是所有的控件路径都返回值
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include /I.\GeneratedFiles\Release /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtCore /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtGui /ID:\Qt\Qt5.7.0\5.7\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_cvtraw.cpp
+         qrc_cvtraw.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\test\CvtRaw\CvtRaw\x64\Release\\CvtRaw.exe" /NOLOGO /LIBPATH:D:\Qt\Qt5.7.0\5.7\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:\test\CvtRaw\CvtRaw\x64\Release\CvtRaw.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\test\CvtRaw\CvtRaw\x64\Release\CvtRaw.lib" /MACHINE:X64 x64\Release\BayerToRGB.obj
+         x64\Release\Convert.obj
+         x64\Release\cvtraw.obj
+         x64\Release\qrc_cvtraw.obj
+         x64\Release\moc_cvtraw.obj
+         x64\Release\ImageWidget.obj
+         x64\Release\main.obj
+         CvtRaw.vcxproj -> D:\test\CvtRaw\CvtRaw\x64\Release\CvtRaw.exe
+     1>已完成生成项目“D:\test\CvtRaw\CvtRaw\CvtRaw\CvtRaw.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.28

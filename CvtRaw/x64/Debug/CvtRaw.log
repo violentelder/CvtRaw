@@ -1,0 +1,17 @@
+﻿  Moc'ing cvtraw.h...
+  Uic'ing cvtraw.ui...
+  Rcc'ing cvtraw.qrc...
+RCC : warning : No resources in 'E:\Project\CvtRaw\CvtRaw\cvtraw.qrc'.
+  
+  BayerToRGB.cpp
+  Convert.cpp
+  cvtraw.cpp
+  moc_cvtraw.cpp
+  ImageWidget.cpp
+  main.cpp
+  正在生成代码...
+e:\project\cvtraw\cvtraw\convert.cpp(55): warning C4715: “CvtCalss::ChangeC32ToMono8”: 不是所有的控件路径都返回值
+e:\project\cvtraw\cvtraw\convert.cpp(424): warning C4715: “CvtCalss::SaveBmp”: 不是所有的控件路径都返回值
+  qrc_cvtraw.cpp
+  CvtRaw.vcxproj -> E:\Project\CvtRaw\x64\Debug\CvtRaw.exe
+  CvtRaw.vcxproj -> E:\Project\CvtRaw\x64\Debug\CvtRaw.pdb (Full PDB)
