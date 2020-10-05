@@ -40,6 +40,7 @@ CvtRaw::CvtRaw(QWidget *parent)
 {
 	ui.setupUi(this);
 	this->image = new QImage();
+	this->qgraphicsScene = new QGraphicsScene;
 
 
 	//建立事件过滤功能
@@ -94,8 +95,9 @@ void CvtRaw::OutputInfo(QString sErrorInfo)
 
 void CvtRaw::recvShowPicSignal(QImage *image)
 {
+	ui.graphicsView->clearMask();
+	qgraphicsScene->clear();
 	QPixmap ConvertPixmap = QPixmap::fromImage(*image);		//The QPixmap class is an off-screen image representation that can be used as a paint device
-	QGraphicsScene  *qgraphicsScene = new QGraphicsScene;	//要用QGraphicsView就必须要有QGraphicsScene搭配着用
 	m_Image = new ImageWidget(&ConvertPixmap);				//实例化类ImageWidget的对象m_Image，该类继承自QGraphicsItem
 	int nwith = ui.graphicsView->width();					//获取界面控件Graphics View的宽度
 	int nheight = ui.graphicsView->height();				//获取界面控件Graphics View的高度

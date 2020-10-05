@@ -48,11 +48,9 @@ private:
 	float Yscale;
 	float Zscale;
 
-
-	
-
 	void OutputErrorInfo(QString sErrorInfo);
 	void OutputInfo(QString sErrorInfo);
+	QGraphicsScene  *qgraphicsScene;
 
 	public slots:     //槽函数声明标志
 
